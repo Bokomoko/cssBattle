@@ -1,0 +1,25 @@
+/* create two variables that containg vertical and horizontal values */
+#root {
+  max-width: 1280px;
+  margin: 0 0 0 0;
+  padding: 0;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+.click {
+  position: absolute;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.bolinha {
+  position: absolute;
+  background-color: green;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
